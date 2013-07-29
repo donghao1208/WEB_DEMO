@@ -2,12 +2,13 @@
     margin: 0;
 }
 
-
+body{
+    font-size: 14px;
+}
 
 #header{
     background:url("../image/header-background.jpg");
-    height: 658px;
-    width: 1423px;
+    width: 100%;
 }
 
 #header1{
@@ -18,12 +19,13 @@
 
 
 #logo1{
-    background: url("../image/logoJB.svg");
+    background: url("../image/logoJB.svg") 0 0.5em;
     width: 200px;
     height: 75px;
     padding-top: 4px;
     margin-left: 6px;
     float: left;
+
 }
 
 #ul1{
@@ -31,6 +33,42 @@
     height: 30px;
     margin-top: 22px;
     float: right;
+}
+#header1 ul li{
+    float: left;
+    list-style: none;
+    height: 30px;
+    margin-left: 7px;
+}
+
+.l1{
+    width: 94px;
+}
+
+.l2{
+    width: 88px;
+}
+
+.l3{
+    width: 115px;
+}
+
+.l4{
+    width: 99px;
+}
+
+.l5{
+    width: 220px;
+}
+
+#ul1 li a{
+    text-decoration: none;
+    color: #757574;
+    padding: 4px 14px;
+    display: block;
+    height: 22px;
+    font-size: 16px;
+    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
 }
 
 #header2{
